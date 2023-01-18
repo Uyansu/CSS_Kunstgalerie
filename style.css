@@ -10,7 +10,7 @@ html{
 
 body{
     height: 100%;
-    background-color: rgb(175, 8, 22);
+    background-color: rgb(130, 48, 55);
 }
 
 ul li{
@@ -24,7 +24,7 @@ ul li{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    background-color:rgb(175, 8, 22);
+    background-color:rgb(130, 48, 55);
     margin-left: 2%;
     margin-right: 2%;
      
