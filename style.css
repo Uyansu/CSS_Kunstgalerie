@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(175, 8, 22);
+}
+
+ul li{
+    margin: 2%;
+    list-style-type: none;
+}
+
+.kopf{
+    min-width: 480px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    background-color:rgb(175, 8, 22);
+    margin-left: 2%;
+    margin-right: 2%;
+     
+   }
+
+   #seiten-name{
+    font-size: 3em;
+    color: whitesmoke;
+    align-self: center;
+    margin: 2%;
+
+   }
+
+#nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border:solid whitesmoke 2px;
+}
+
+#ungeordnet{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.nav-1{
+    align-self: flex-start;
+}
+
+
+.nav-2{
+    align-self: flex-end;
+}
+
+nav  ul  li{
+
+height: 100%;
+padding: 30px;
+
+                               
+}
+ 
+ nav ul li a{
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+ }
+
+ nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s;
+ }
+
+ /*-----------------Körper----------------------*/
+ 
+ .koerper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    min-width: 480px;
+ }
+
+ #bild-1{
+    
+ }
+
+ /*-------------------------------- footer------------------------ */
+
+ .fuss{
+    display: flex;
+    min-width: 480px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    border: solid 3px whitesmoke;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+ }
+
+ #Kuenstler{
+    font-size: 2em;
+    color: white;
+    margin: 2%;
+    align-self: center;
+    
+ }
+
+ #list-unten{
+
+    align-self: center;
+    list-style-type: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color: bisque;
+    
+ }
+
+ #p-anfang{
+    margin-bottom: 2%;
+    align-self: flex-end;
+    margin-right: 2%;
+    
+ }
+
+ #anfang{
+
+    font-size: 1.5em;
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+ }
+
+ #anfang:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s;
+ }
+
+
+ 
