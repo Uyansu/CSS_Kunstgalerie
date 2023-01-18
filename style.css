@@ -97,10 +97,41 @@ padding: 30px;
     align-items: center;
     min-height: 80px;
     min-width: 480px;
+    border: solid whitesmoke 2px;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+ #Galerie{
+
+    font-size: 2em;
+    color: white;
+    margin-top: 2%;
+ }
+
+ article h2{
+    font-size: 1.5em;
+    margin-top: 4%;
+    margin-left: 2%;
+    color: whitesmoke;
  }
 
  #bild-1{
-    
+    margin: 2%;
+ }
+ #bild-2{
+    margin: 2%;
+ }
+ #bild-3{
+    margin:2%
+
+ }
+
+ .liste-koerper{
+    color: whitesmoke;
+    opacity: 0.75;
+    font-size: 1.2em;
  }
 
  /*-------------------------------- footer------------------------ */
